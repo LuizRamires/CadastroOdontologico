@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj",
+        "projectName": "Odonto.Client",
+        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj",
+        "packagesPath": "C:\\Users\\Typhon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Typhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj": {
+                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[0.9.1.2, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[0.9.1.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj",
+        "projectName": "Odonto.Server",
+        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj",
+        "packagesPath": "C:\\Users\\Typhon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Typhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj": {
+                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj"
+              },
+              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj": {
+                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj",
+        "projectName": "Odonto.Shared",
+        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj",
+        "packagesPath": "C:\\Users\\Typhon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Typhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

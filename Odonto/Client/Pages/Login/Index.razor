@@ -1,0 +1,30 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<Column>
+    <Card>
+        <CardHeader>
+            <CardTitle>Login</CardTitle>
+        </CardHeader>
+        <CardBody>
+            <Field>
+                <FieldLabel>Email address</FieldLabel>
+                <TextEdit Placeholder="Enter email" />
+                <FieldHelp>We'll never share your email with anyone else.</FieldHelp>
+            </Field>
+            <Field>
+                <FieldLabel>Password</FieldLabel>
+                <TextEdit Role="TextRole.Password" Placeholder="Password" />
+            </Field>
+            <Button Color="Color.Primary" @onclick="Redirect">Login</Button>
+        </CardBody>
+    </Card>
+</Column>
+
+@code {
+
+    void Redirect()
+    {
+        NavigationManager.NavigateTo("/Inicio");
+    }
+}

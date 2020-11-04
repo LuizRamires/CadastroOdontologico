@@ -1,0 +1,171 @@
+﻿@page "/Cadastro"
+<h1>Cadastro</h1>
+<Row>
+    <Column>
+        <Card Margin="Margin.Is4.OnY">
+            <CardHeader>
+                <CardTitle>Basic Fields</CardTitle>
+            </CardHeader>
+            <CardBody>
+                <CardText>Most common form control, text-based input fields. Includes support for most of HTML5 types: <code>text</code>, <code>password</code>, <code>date</code>, <code>number</code>, <code>text</code>, <code>email</code>, <code>url</code>.</CardText>
+            </CardBody>
+            <CardBody>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Name</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Some text value..." />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Email</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Role="TextRole.Email" Placeholder="email" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Password</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Role="TextRole.Password" Text="password" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Placeholder</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="placeholder" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Text area</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <MemoEdit Rows="5" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Readonly</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Text="Readonly value" ReadOnly="true" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Disabled</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Text="Disabled value" Disabled="true" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Static control</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Text="email@example.com" Plaintext="true" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Helping text</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Helping text">
+                            <FieldHelp>A block of help text that breaks onto a new line and may extend beyond one line.</FieldHelp>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Input Select</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <Select SelectedValue="3">
+                            <SelectItem Value="1">1</SelectItem>
+                            <SelectItem Value="2">2</SelectItem>
+                            <SelectItem Value="3">3</SelectItem>
+                            <SelectItem Value="4">4</SelectItem>
+                        </Select>
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Multiple Select</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <Select TValue="int" Multiple="true">
+                            <SelectItem Value="1">1</SelectItem>
+                            <SelectItem Value="2">2</SelectItem>
+                            <SelectItem Value="3">3</SelectItem>
+                            <SelectItem Value="4">4</SelectItem>
+                        </Select>
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Input Select With Group</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <Select SelectedValue="3">
+                            <SelectGroup Label="first group">
+                                <SelectItem Value="1">1</SelectItem>
+                                <SelectItem Value="2">2</SelectItem>
+                            </SelectGroup>
+                            <SelectGroup Label="second group">
+                                <SelectItem Value="3">3</SelectItem>
+                                <SelectItem Value="4">4</SelectItem>
+                            </SelectGroup>
+                        </Select>
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Default file input</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <FileEdit />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Date</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <DateEdit TValue="DateTime?" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Time</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TimeEdit TValue="TimeSpan?" TimeChanged="@((v)=>Console.WriteLine(v))" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Number</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <NumericEdit TValue="decimal?" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Url</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Role="TextRole.Url" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Range slider</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <Slider TValue="decimal" Value="25m" Max="100m" />
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Radios</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <RadioGroup TValue="string" Name="colors" Inline="true" CheckedValue="@("blue")">
+                            <Radio TValue="string" Value="@("red")">Red</Radio>
+                            <Radio TValue="string" Value="@("green")">Green</Radio>
+                            <Radio TValue="string" Value="@("blue")">Blue</Radio>
+                        </RadioGroup>
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Radio buttons</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <RadioGroup TValue="string" Name="colors2" Inline="true" Buttons="true" CheckedValue="@("green")">
+                            <Radio TValue="string" Value="@("red")">Red</Radio>
+                            <Radio TValue="string" Value="@("green")">Green</Radio>
+                            <Radio TValue="string" Value="@("blue")">Blue</Radio>
+                        </RadioGroup>
+                    </FieldBody>
+                </Field>
+                <Field Horizontal="true">
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Color</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <ColorEdit ColorChanged="@(c=>Console.WriteLine(c))" />
+                    </FieldBody>
+                </Field>
+            </CardBody>
+        </Card>
+    </Column>
+</Row>
