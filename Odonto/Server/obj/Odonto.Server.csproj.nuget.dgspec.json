@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj": {}
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Server\\Odonto.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj": {
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Client\\Odonto.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Client\\Odonto.Client.csproj",
         "projectName": "Odonto.Client",
-        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj",
+        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Client\\Odonto.Client.csproj",
         "packagesPath": "C:\\Users\\Typhon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Typhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj": {
-                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj"
+              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj": {
+                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj": {
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Server\\Odonto.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Server\\Odonto.Server.csproj",
         "projectName": "Odonto.Server",
-        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\Odonto.Server.csproj",
+        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Server\\Odonto.Server.csproj",
         "packagesPath": "C:\\Users\\Typhon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Server\\obj\\",
+        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Typhon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,11 +111,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj": {
-                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj"
+              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Client\\Odonto.Client.csproj": {
+                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Client\\Odonto.Client.csproj"
               },
-              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj": {
-                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj"
+              "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj": {
+                "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj": {
+    "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj",
         "projectName": "Odonto.Shared",
-        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj",
+        "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj",
         "packagesPath": "C:\\Users\\Typhon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Typhon\\AppData\\Roaming\\NuGet\\NuGet.Config",

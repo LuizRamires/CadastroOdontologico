@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Odonto.Client.dll": "sha256-PD9OC56b\/DD7Yb\/iubL99BfiTCS7BrjyfATsGNmla3s=",
+      "Odonto.Client.dll": "sha256-tgC+BR\/QI90TtFzJM2E3IHeZwh9aU\/9apa6atZ7\/eyg=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -64,7 +64,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "Odonto.Client.pdb": "sha256-fz7\/HRSAGghNm0sPlvphTe+nBWJH5xhv0toT1EhXr1k=",
+      "Odonto.Client.pdb": "sha256-gJ7E45\/A8UTnleg8oUh022qIWoZccV59TusPxOddZrI=",
       "Odonto.Shared.pdb": "sha256-1yzCyusxyEwr4YWvOaQ8fw0kmwVsHO\/25ezTUmXd8Zc="
     },
     "runtime": {

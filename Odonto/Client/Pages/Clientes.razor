@@ -1,36 +1,75 @@
 ﻿@page "/Clientes"
 <h1>Clientes</h1>
+
+<Field Horizontal="true">
+    <FieldBody ColumnSize="ColumnSize.IsFull.OnTablet.Is12.OnDesktop">
+        <Addons>
+            <Addon AddonType="AddonType.Body">
+                <TextEdit Placeholder="Nome do Cliente" />
+            </Addon>
+            <Addon AddonType="AddonType.End">
+                <Button Color="Color.Secondary">Pesquisar</Button>
+            </Addon>
+        </Addons>
+    </FieldBody>
+</Field>
+
 <Row>
     <Column>
         <Card Margin="Margin.Is4.FromBottom">
             <CardBody>
                 <Table Bordered="true" Hoverable="true">
+
                     <TableHeader>
                         <TableRow>
                             <TableHeaderCell>#</TableHeaderCell>
-                            <TableHeaderCell>First Name</TableHeaderCell>
-                            <TableHeaderCell>Last Name</TableHeaderCell>
-                            <TableHeaderCell>Username</TableHeaderCell>
+                            <TableHeaderCell>Nome</TableHeaderCell>
+                            <TableHeaderCell>Telefone</TableHeaderCell>
+                            <TableHeaderCell>Email</TableHeaderCell>
+                            <TableHeaderCell>Proxima Consulta</TableHeaderCell>
                         </TableRow>
                     </TableHeader>
+
                     <TableBody>
-                        <TableRow>
+                        <TableRow Clicked="@(()=>ShowModal( ModalSize.Large ))">
                             <TableRowHeader>1</TableRowHeader>
-                            <TableRowCell>Mark</TableRowCell>
-                            <TableRowCell>Otto</TableRowCell>
+                            <TableRowCell>Marcos</TableRowCell>
+                            <TableRowCell>498496194</TableRowCell>
                             <TableRowCell>@@mdo</TableRowCell>
+                            <TableRowCell>30/01/20 14:30</TableRowCell>
                         </TableRow>
-                        <TableRow>
+
+                        <TableRow Clicked="@(()=>ShowModal( ModalSize.Large ))">
                             <TableRowHeader>2</TableRowHeader>
-                            <TableRowCell>Jacob</TableRowCell>
-                            <TableRowCell>Thornton</TableRowCell>
+                            <TableRowCell>Lucas</TableRowCell>
+                            <TableRowCell>979879191</TableRowCell>
                             <TableRowCell>@@fat</TableRowCell>
+                            <TableRowCell>10/02/20 14:30</TableRowCell>
                         </TableRow>
-                        <TableRow>
+
+                        <TableRow Clicked="@(()=>ShowModal( ModalSize.Large ))">
                             <TableRowHeader>3</TableRowHeader>
-                            <TableRowCell>Larry</TableRowCell>
-                            <TableRowCell>the Bird</TableRowCell>
+                            <TableRowCell>Regina</TableRowCell>
+                            <TableRowCell>879849198</TableRowCell>
                             <TableRowCell>@@twitter</TableRowCell>
+                            <TableRowCell>12/02/20 17:30</TableRowCell>
+
+                        </TableRow>
+                        <TableRow Clicked="@(()=>ShowModal( ModalSize.Large ))">
+                            <TableRowHeader>4</TableRowHeader>
+                            <TableRowCell>Paula</TableRowCell>
+                            <TableRowCell>879849198</TableRowCell>
+                            <TableRowCell>@@outlook</TableRowCell>
+                            <TableRowCell>15/02/20 15:45</TableRowCell>
+
+                        </TableRow>
+                        <TableRow Clicked="@(()=>ShowModal( ModalSize.Large ))">
+                            <TableRowHeader>5</TableRowHeader>
+                            <TableRowCell>Juliana</TableRowCell>
+                            <TableRowCell>879849198</TableRowCell>
+                            <TableRowCell>@@gmail</TableRowCell>
+                            <TableRowCell>20/02/20 14:30</TableRowCell>
+
                         </TableRow>
                     </TableBody>
                 </Table>
@@ -38,3 +77,143 @@
         </Card>
     </Column>
 </Row>
+
+<Modal @ref="modalRef">
+    <ModalBackdrop />
+    <ModalContent Size="@modalSize" Centered="@centered">
+        <ModalHeader>
+            <ModalTitle>
+                <Icon Name="IconName.Edit" />
+                Editar Cadastro/Adicionar Consulta
+            </ModalTitle>
+            <CloseButton Clicked="@HideModal" />
+        </ModalHeader>
+        <ModalBody MaxHeight="@maxHeight">
+            <Tabs SelectedTab="@selectedTabName1" SelectedTabChanged="@OnSelectedTabChanged1" Justified="true">
+                <Items>
+                    <Tab Name="cadastro">Cadastro</Tab>
+                    <Tab Name="consultas">Consultas</Tab>
+                </Items>
+                <Content>
+                    <TabPanel Name="cadastro">
+                        <Row>
+                            <Column>
+                                <Card Margin="Margin.Is4.OnY">
+                                    <CardHeader>
+                                        <CardTitle>Cliente</CardTitle>
+                                    </CardHeader>
+                                    <CardBody>
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Nome</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <TextEdit Placeholder="Insira o nome do cliente" />
+                                            </FieldBody>
+                                        </Field>
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Telefone</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <TextEdit Placeholder="Insira o numero do cliente" />
+                                            </FieldBody>
+                                        </Field>
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Email</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <TextEdit Role="TextRole.Email" Placeholder="Email" />
+                                            </FieldBody>
+                                        </Field>
+
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Sintomas</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <MemoEdit Rows="5" />
+                                            </FieldBody>
+                                        </Field>
+
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Data</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <DateEdit TValue="DateTime?" />
+                                            </FieldBody>
+                                        </Field>
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Hora</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <TimeEdit TValue="TimeSpan?" TimeChanged="@((v)=>Console.WriteLine(v))" />
+                                            </FieldBody>
+                                        </Field>
+                                    </CardBody>
+                                </Card>
+                            </Column>
+                        </Row>
+                    </TabPanel>
+                    <TabPanel Name="consultas">
+                        <Row>
+                            <Column>
+                                <Card Margin="Margin.Is4.OnY">
+                                    <CardBody>
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Tipo de Consulta</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <TextEdit Placeholder="Consulta" />
+                                            </FieldBody>
+                                        </Field>
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Data</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <DateEdit TValue="DateTime?" />
+                                            </FieldBody>
+                                        </Field>
+                                        <Field Horizontal="true">
+                                            <FieldLabel ColumnSize="ColumnSize.Is2">Hora</FieldLabel>
+                                            <FieldBody ColumnSize="ColumnSize.Is10">
+                                                <TimeEdit TValue="TimeSpan?" TimeChanged="@((v)=>Console.WriteLine(v))" />
+                                            </FieldBody>
+                                        </Field>
+                                    </CardBody>
+                                </Card>
+                            </Column>
+                        </Row>
+                    </TabPanel>
+                </Content>
+            </Tabs>
+        </ModalBody>
+        <ModalFooter>
+            <Button Color="Color.Secondary" Clicked="@HideModal">Fechar</Button>
+            <Button Color="Color.Primary" Clicked="@HideModal">Salvar</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+@code{
+    private Modal modalRef;
+    private bool centered = false;
+    private ModalSize modalSize = ModalSize.Default;
+    private int? maxHeight = null;
+
+    private string selectedTabName1 = "cadastro";
+    private string selectedTabName2 = "consultas";
+
+    private void ShowModal(ModalSize modalSize, int? maxHeight = null, bool centered = false)
+    {
+        this.centered = centered;
+        this.modalSize = modalSize;
+        this.maxHeight = maxHeight;
+
+        modalRef.Show();
+    }
+
+    private void HideModal()
+    {
+        modalRef.Hide();
+    }
+
+    private void OnSelectedTabChanged1(string name)
+    {
+        selectedTabName1 = name;
+    }
+
+    private void OnSelectedTabChanged2(string name)
+    {
+        selectedTabName2 = name;
+    }
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "51GgiYDCaKyhl4k0fV4r0NSV3mGSnz8dcOyZgBzBRZcqfseX8SrxCg+TxAeDOMG33DVuIdvFyDSMyi04Zf7kSw==",
+  "dgSpecHash": "dtGk12on8yvrkaBgnzvQlJsZArJgcqzEABHQZsW7yWKTuNhRRotZ3v6IyIga2u2YY/Tfx3uxnbRhxSjHRDuMBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Client\\Odonto.Client.csproj",
+  "projectFilePath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Client\\Odonto.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Typhon\\.nuget\\packages\\blazorise\\0.9.1.2\\blazorise.0.9.1.2.nupkg.sha512",
     "C:\\Users\\Typhon\\.nuget\\packages\\blazorise.bootstrap\\0.9.1.2\\blazorise.bootstrap.0.9.1.2.nupkg.sha512",

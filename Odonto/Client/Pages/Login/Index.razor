@@ -1,6 +1,7 @@
 ﻿@page "/"
 @inject NavigationManager NavigationManager
 
+<Container>
 <Column>
     <Card>
         <CardHeader>
@@ -8,18 +9,19 @@
         </CardHeader>
         <CardBody>
             <Field>
-                <FieldLabel>Email address</FieldLabel>
-                <TextEdit Placeholder="Enter email" />
-                <FieldHelp>We'll never share your email with anyone else.</FieldHelp>
+                <FieldLabel>Email</FieldLabel>
+                <TextEdit Placeholder="Insira o Email" />
+                <FieldHelp>Nunca iremos compartilhar suas informações</FieldHelp>
             </Field>
             <Field>
-                <FieldLabel>Password</FieldLabel>
-                <TextEdit Role="TextRole.Password" Placeholder="Password" />
+                <FieldLabel>Senha</FieldLabel>
+                <TextEdit Role="TextRole.Password" Placeholder="Senha"/>
             </Field>
             <Button Color="Color.Primary" @onclick="Redirect">Login</Button>
         </CardBody>
     </Card>
 </Column>
+</Container>
 
 @code {
 

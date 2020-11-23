@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj",
       "projectName": "Odonto.Shared",
-      "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\Odonto.Shared.csproj",
+      "projectPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\Odonto.Shared.csproj",
       "packagesPath": "C:\\Users\\Typhon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\Odonto\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\Typhon\\Documents\\Comp2020\\PI4\\Code\\CadastroOdontologico\\Odonto\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Typhon\\AppData\\Roaming\\NuGet\\NuGet.Config",

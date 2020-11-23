@@ -7,3 +7,12 @@ C:\Users\Typhon\Documents\Comp2020\PI4\Code\Odonto\Shared\obj\Debug\netstandard2
 C:\Users\Typhon\Documents\Comp2020\PI4\Code\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.csproj.CoreCompileInputs.cache
 C:\Users\Typhon\Documents\Comp2020\PI4\Code\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.dll
 C:\Users\Typhon\Documents\Comp2020\PI4\Code\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.pdb
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\bin\Debug\netstandard2.1\Odonto.Shared.deps.json
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\bin\Debug\netstandard2.1\Odonto.Shared.dll
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\bin\Debug\netstandard2.1\Odonto.Shared.pdb
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.csprojAssemblyReference.cache
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.AssemblyInfoInputs.cache
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.AssemblyInfo.cs
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.dll
+C:\Users\Typhon\Documents\Comp2020\PI4\Code\CadastroOdontologico\Odonto\Shared\obj\Debug\netstandard2.1\Odonto.Shared.pdb
